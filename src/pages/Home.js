@@ -90,6 +90,8 @@ const Home = () => {
         </div>
       </div>
 
+      
+
       {/* Product */}
       <div className='container text-center' style={{ height: '90vh' }}>
         <h1 className='fs-1 fw-bold mt-5 mb-3'>Our products</h1>
@@ -124,8 +126,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-
+      </div>            
     </>
   )
 }
