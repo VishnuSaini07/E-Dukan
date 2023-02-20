@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { BsSearch } from 'react-icons/bs'
+import { BsSearch, BsHeart } from 'react-icons/bs'
 import { HiShoppingCart } from 'react-icons/hi'
 
 const Header = () => {
@@ -38,7 +38,12 @@ const Header = () => {
                 <BsSearch />
               </span>
             </div>
-            <HiShoppingCart className='fs-1 fw-light me-4' />
+            <NavLink to="wishlist">
+              <BsHeart />
+            </NavLink>
+            <NavLink to="cart">
+              <HiShoppingCart className='fs-1 fw-light me-4' />
+            </NavLink>
             <button className="btn btn-dark btn-md me-5">Login</button>
           </div>
         </div>
