@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import ProductDetail from './pages/ProductDetail';
 import Wishlist from './pages/Wishlist';
+import Shop from './pages/Shop';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
             <Route path='about' element={<About />} />
             <Route path='contact' element={<Contact />} />
             <Route path='productDetail' element={<ProductDetail />} />
-            <Route path='wishlist' element={<Wishlist />} />
 
+            <Route path='wishlist' element={<Wishlist />} />
+            <Route path='shop' element={<Shop />} />
           </Route>
         </Routes>
       </Router>
