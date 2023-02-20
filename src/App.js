@@ -19,9 +19,8 @@ function App() {
             <Route path='about' element={<About />} />
             <Route path='contact' element={<Contact />} />
             <Route path='productDetail' element={<ProductDetail />} />
-
-            <Route path='wishlist' element={<Wishlist />} />
             <Route path='shop' element={<Shop />} />
+            <Route path='wishlist' element={<Wishlist />} />
           </Route>
         </Routes>
       </Router>
