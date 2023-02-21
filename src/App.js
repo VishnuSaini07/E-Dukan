@@ -8,6 +8,8 @@ import Contact from './pages/Contact';
 import ProductDetail from './pages/ProductDetail';
 import Wishlist from './pages/Wishlist';
 import Shop from './pages/Shop';
+import Login from './firebase-auth/Login';
+import Signup from './firebase-auth/Signup';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
             <Route path='shop' element={<Shop />} />
             <Route path='wishlist' element={<Wishlist />} />
           </Route>
+            <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
         </Routes>
       </Router>
     </>
