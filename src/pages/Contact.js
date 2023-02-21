@@ -23,6 +23,7 @@ const Contact = () => {
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        <p> We will contact you within 24 hour</p>
       </div>
     </>
 
