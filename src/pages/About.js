@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-   <div className ="contianer" style={{width: '70%'}} mx-auto>
+   <div className ="contianer mx-auto" style={{height: '50vh', width: '70%'}}>
      <h1 className = "my-3"> <center>About US</center></h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
