@@ -45,7 +45,7 @@ const Header = () => {
             <NavLink to="cart">
               <HiShoppingCart className='fs-2 fw-light me-4' />
             </NavLink>
-            <button className="btn btn-dark btn-md me-5">Login</button>
+            <NavLink to="login" className="btn btn-dark text-white btn-md me-5">Login</NavLink>
           </div>
         </div>
       </nav>

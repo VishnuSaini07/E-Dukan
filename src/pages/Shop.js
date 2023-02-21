@@ -9,7 +9,7 @@ const Shop = () => {
                 <div className="row row-2">
                     <div className="col-3">
                         <div className="filter py-5">
-                            <p className='fs-4'>Filters <a href="" className='text-secondary px-4 fs-6 text-decoration-underline'>Clear filters</a></p>
+                            <p className='fs-4'>Filters <a href="/" className='text-secondary px-4 fs-6 text-decoration-underline'>Clear filters</a></p>
                             <h6 className='mb-3'>Categories</h6>
                             <div class="form-check">
                                 <input class="form-check-input border-dark" type="checkbox" value="" id="Jeans" />
@@ -40,9 +40,9 @@ const Shop = () => {
                                         Popular
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Popular</a></li>
-                                        <li><a class="dropdown-item" href="#">Newest</a></li>
-                                        <li><a class="dropdown-item" href="#">Oldest</a></li>
+                                        <li><a class="dropdown-item" href="/">Popular</a></li>
+                                        <li><a class="dropdown-item" href="/">Newest</a></li>
+                                        <li><a class="dropdown-item" href="/">Oldest</a></li>
                                     </ul>
                                 </div>
                             </div>
