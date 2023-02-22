@@ -85,22 +85,3 @@ a {
 .copyright p {
   margin-top: 12px;
 }
-
-/* Login form */
- .newOne {
-  font-size: 14px !important;
-}
-
-.backBtn {
-  margin-top: 15px;
-  margin-left: 25px;
-  transition: 0.5s;
-}
-
-.back {
-  font-size: 35px !important;
-}
-
-.backBtn:hover {
-  margin-left: 10px !important;
-}
