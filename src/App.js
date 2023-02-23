@@ -21,7 +21,6 @@ function App() {
             <Route path='productDetail' element={<ProductDetail />} />
             <Route path='shop' element={<Shop />} />
             <Route path='wishlist' element={<Wishlist />} />
-            <Route path='login' element={<Login />} />
           </Route>
         </Routes>
       </Router>
