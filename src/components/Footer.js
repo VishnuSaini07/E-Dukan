@@ -25,8 +25,8 @@ const Footer = () => {
             <div className="col-md-4 d-flex flex-column">
               <h4 className='mb-3'>Customer Policies</h4>
               <Link to="contact">Contact Us</Link>
-              <Link to="">Payments</Link>
-              <Link to="">Cancellation & Returns</Link>
+              <Link to="payments">Payments</Link>
+              <Link to="returns">Cancellation & Returns</Link>
             </div>
             <div className="col-md-4 d-flex flex-column">
               <h4 className='mb-3'>Connect with us</h4>
