@@ -3,7 +3,7 @@ import React from 'react'
 const Payments = () => {
   return (
     <div>
-      <div className ="contianer mx-auto" style={{height: '50vh', width: '70%'}}>
+      <div className ="contianer mx-auto" style={{height: '60vh', width: '70%'}}>
             <h1 className = "my-3"> <center>Payments</center></h1>
             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className="accordion-body">

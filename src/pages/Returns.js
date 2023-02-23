@@ -3,7 +3,7 @@ import React from 'react'
 const Returns = () => {
   return (
     <div>
-        <div className ="contianer mx-auto" style={{height: '50vh', width: '70%'}}>
+        <div className ="contianer mx-auto" style={{height: '60vh', width: '70%'}}>
      <h1 className = "my-3"> <center>Cancellations & Returns</center></h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
