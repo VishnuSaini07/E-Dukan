@@ -9,7 +9,7 @@ const Header = () => {
     <>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container px-15">
+        <div className="container px-5">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">E-Dukan</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -45,7 +45,7 @@ const Header = () => {
             <NavLink to="cart">
               <HiShoppingCart className='fs-2 fw-light me-4' />
             </NavLink>
-            <NavLink to="login" className="btn btn-dark text-white btn-md me-5">Login</NavLink>
+            <NavLink to="/" className="btn btn-dark text-white btn-md me-5">Login</NavLink>
           </div>
         </div>
       </nav>

@@ -43,7 +43,7 @@ const ProductDetail = () => {
                         <div className="cartQuantity d-flex align-items-center">
                             <div className="cart">
                                 <button className='btn btn-dark mt-4 mb-2' style={{padding: '15px 150px'}}>Add to Cart - Rs.</button>
-                                <p className='text-secondary'>Free standard shipping <a href="" className='text-secondary px-4 fs-6 text-decoration-underline'>Free Returns</a></p>
+                                <p className='text-secondary'>Free standard shipping <a href="/" className='text-secondary px-4 fs-6 text-decoration-underline'>Free Returns</a></p>
                             </div>
                             <div className="quantity d-flex flex-column ms-3" style={{marginBottom: '55px'}}>
                             <span className='fs-5 text-secondary mb-1'>Quantity</span>
