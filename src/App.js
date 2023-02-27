@@ -11,6 +11,7 @@ import Shop from './pages/Shop';
 import Cart from './pages/Cart';
 import Payments from './pages/Payments';
 import Returns from './pages/Returns';
+import FAQ from './pages/FAQ';
 import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
             <Route path='cart' element={<Cart />} />
             <Route path='payments' element={<Payments />} />
             <Route path='returns' element={<Returns />} />
+            <Route path='faq' element={<FAQ />} />
+
           </Route>
         </Routes>
       </Router>

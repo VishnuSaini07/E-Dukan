@@ -19,14 +19,16 @@ const Footer = () => {
             <div className="col-md-3 d-flex flex-column">
               <h4 className='mb-3'>Get to know us</h4>
               <Link to="about">About Us</Link>
-              <Link to="">Careers</Link>
+              <Link to="contact">Contact Us</Link>
               <Link to=""> Site Map</Link>
             </div>
             <div className="col-md-3 d-flex flex-column">
               <h4 className='mb-3'>Customer Policies</h4>
-              <Link to="contact">Contact Us</Link>
+
               <Link to="payments">Payments</Link>
               <Link to="returns">Cancellation & Returns</Link>
+              <Link to="faq"> FAQ</Link>
+
             </div>
             <div className="col-md-3 d-flex flex-column">
               <h4 className='mb-3'>Connect with us</h4>
