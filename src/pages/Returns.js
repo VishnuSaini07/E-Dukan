@@ -3,7 +3,7 @@ import React from 'react'
 const Returns = () => {
   return (
     <div>
-        <div className ="contianer mx-auto" style={{height: '50vh', width: '70%'}}>
+        <div className ="contianer mx-auto" style={{height: '55vh', width: '70%'}}>
      <h1 className = "my-3"> <center>Cancellations & Returns</center></h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -46,6 +46,21 @@ const Returns = () => {
                 If the request is approved, the item will be picked up after which you will get a replacement or refund. 
                 You can also track the status of your return request instantly from the 'My Orders' section of your 
                 E-Dukan account.            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header" id="headingThree">
+            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How do I cancel the order, I have placed?
+            </button>
+          </h2>
+          <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+            Order can be canceled till the same is out for delivery. 
+            Note: This may not be applicable for certain logistics partner. 
+            You would see an option to cancel within 'My Orders' section under the main menu of your App/Website/M-site then select the item or order you want to cancel.
+             In case you are unable to cancel the order from'My Orders' section, you can refuse it at the time of delivery and refund will be processed into the source account, if order amount was paid online.
+            </div>
           </div>
         </div>
     </div>
