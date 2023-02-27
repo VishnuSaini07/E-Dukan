@@ -11,11 +11,13 @@ import Shop from './pages/Shop';
 import Cart from './pages/Cart';
 import Payments from './pages/Payments';
 import Returns from './pages/Returns';
+import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
