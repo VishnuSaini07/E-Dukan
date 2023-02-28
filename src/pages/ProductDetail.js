@@ -1,10 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { BsHeart } from 'react-icons/bs'
 import { CiShare1 } from 'react-icons/ci'
 
 const ProductDetail = () => {
     return (
         <>
+        <Helmet>
+            <title>Product Detail</title>
+        </Helmet>
             <div className="container my-5" style={{height: '100vh'}}>
                 <div className="row">
                     <div className="col-6">

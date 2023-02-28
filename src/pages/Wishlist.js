@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import {AiFillHeart} from 'react-icons/ai'
 
 const Wishlist = () => {
   return (
     <>
+    <Helmet>
+      <title>Wishlist</title>
+    </Helmet>
       <div className='container text-center' style={{ height: '90vh' }}>
         <h1 className='fs-1 fw-bold mt-5 mb-3'>Wishlist</h1>
         <p className='mx-auto fs-5 mb-4' style={{ width: '55%' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae omnis quis obcaecati voluptate deserunt repellat distinctio illo atque fugit</p>

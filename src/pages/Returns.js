@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Returns = () => {
   return (
-    <div>
+    <>
+    <Helmet>
+      <title>Return</title>
+    </Helmet>
         <div className ="contianer mx-auto" style={{height: '60vh', width: '70%'}}>
      <h1 className = "my-3"> <center>Cancellations & Returns</center></h1>
       <div className="accordion" id="accordionExample">
@@ -50,7 +54,7 @@ const Returns = () => {
         </div>
     </div>
     </div>
-    </div>
+    </>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Cart = () => {
     return (
         <>
+        <Helmet>
+            <title>Cart</title>
+        </Helmet>
             <div className="container my-5 px-5" style={{height :'135vh'}}>
                 <h1>Your Cart</h1>
                 <div className="row">

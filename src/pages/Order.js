@@ -1,9 +1,13 @@
 import React from 'react'
 import { BsArrowRepeat } from 'react-icons/bs'
+import { Helmet } from 'react-helmet';
 
 const Order = () => {
     return (
         <>
+            <Helmet>
+                <title>Your orders</title>
+            </Helmet>
             <div className="container my-5 px-5">
                 <h1>Your Order</h1>
                 <div className="row mt-4">

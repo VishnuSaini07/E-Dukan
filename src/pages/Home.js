@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <>
+    <Helmet>
+      <title>E-Dukan</title>
+    </Helmet>
       {/* Carousel */}
       <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-inner">

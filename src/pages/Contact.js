@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
   return (
     <>
+    <Helmet>
+      <title>Contact us</title>
+    </Helmet>
       <div className="contianer mx-auto" style={{ width: '40%' }} >
         <h1 className="my-3"> <center>Contact US</center></h1>
         <div className="mb-3">
