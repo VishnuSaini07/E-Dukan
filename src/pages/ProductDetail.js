@@ -9,11 +9,19 @@ const ProductDetail = () => {
                 <div className="row">
                     <div className="col-6">
                         <div className="container text-center">
-                            <div className="row row-cols-2 gap-3">
-                                <div className="col" style={{ height: '250px', width: '250px', background: 'lightGrey' }}></div>
-                                <div className="col" style={{ height: '250px', width: '250px', background: 'lightGrey' }}></div>
-                                <div className="col" style={{ height: '250px', width: '250px', background: 'lightGrey' }}></div>
-                                <div className="col" style={{ height: '250px', width: '250px', background: 'lightGrey' }}></div>
+                            <div className="row row-cols-2 gap-2">
+                                <div className="col border" style={{ height: '250px', width: '250px'}}>
+                                    <img src="./images/men/jeans/jeans0101.jpg" style={{ height: '100%', width: '100%'}} alt="" />
+                                </div>
+                                <div className="col border" style={{ height: '250px', width: '250px'}}>
+                                    <img src="./images/men/jeans/jeans0102.jpg" style={{ height: '100%', width: '100%'}} alt="" />
+                                </div>
+                                <div className="col border" style={{ height: '250px', width: '250px'}}>
+                                    <img src="./images/men/jeans/jeans0103.jpg" style={{ height: '100%', width: '100%'}} alt="" />
+                                </div>
+                                <div className="col border" style={{ height: '250px', width: '250px'}}>
+                                    <img src="./images/men/jeans/jeans0104.jpg" style={{ height: '100%', width: '100%'}} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>

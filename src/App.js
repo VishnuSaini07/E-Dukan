@@ -13,6 +13,7 @@ import Payments from './pages/Payments';
 import Returns from './pages/Returns';
 import FAQ from './pages/FAQ';
 import ScrollToTop from './pages/ScrollToTop';
+import Order from './pages/Order';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
             <Route path='payments' element={<Payments />} />
             <Route path='returns' element={<Returns />} />
             <Route path='faq' element={<FAQ />} />
-
+            <Route path='order' element={<Order />} />
           </Route>
         </Routes>
       </Router>
